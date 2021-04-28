@@ -15,4 +15,6 @@ int main(){
 
     for(int e : alpha)
         cout << e << ' ';
+
+    return 0;
 }
