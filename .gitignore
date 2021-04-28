@@ -8,4 +8,5 @@
 *.filters
 *. log
 브론즈/*.exe
+.vscode/
 
