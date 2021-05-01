@@ -7,6 +7,6 @@
 *.user
 *.filters
 *. log
-브론즈/*.exe
+*.exe
 .vscode/settings.json
 
