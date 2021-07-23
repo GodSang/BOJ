@@ -50,12 +50,7 @@ int main() {
             }
         }
     }
-    for (int i=0;i<n;i++) {
-        for (int j=0;j<m;j++) {
-            cout << dist[i][j][1] << " ";
-        }
-        cout << endl;
-    }
+    
     int a = dist[n-1][m-1][0];
     int b = dist[n-1][m-1][1];
     if(a==0 && b==0) {
