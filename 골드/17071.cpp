@@ -12,15 +12,12 @@ int main() {
     queue<pair<int,int>>q;
     int n,k;
     cin >> n >> k;
-    if(n == k) {
-        cout << 0;
-        return 0;
-    }
+
     for(int i=0;i<LMT+1;i++) {
         fill(vis[i], vis[i] +2, -1);
     }
     
-    vis[n][0] = 1;
+    vis[n][0] = 0;
     q.push({n, 0});
     while(!q.empty()) {
         pair<int,int> cur = q.front();
